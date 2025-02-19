@@ -1,31 +1,60 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Fjalla+One&family=Gloock&family=Rubik+Doodle+Shadow&family=Rubik+Scribble&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-html , body{
+
+html, body {
     height: 100%;
     width: 100%;
 }
-#main{
-    height: 100%;
-    width: 100vw;
-    background: #000;
+
+#page1 {
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 100vh;
+    width: 100%;
+    position: relative;
 }
-img{
+
+img {
     height: 100%;
     width: 100vw;
 }
-h1{
+
+h1 {
     position: absolute;
     font-size: 80px;
     color: white;
-    t-family: "Rubik Doodle Shadow", serif;
-   font-weight: 400;
-   font-style: normal;
+    font-family: "Rubik Doodle Shadow", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#page2 {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+#page2 .left {
+    height: 100vh;
+    width: 50%;
+}
+h6{
+    color: rgb(187, 15, 206);
+}
+
+#page2 .right {
+    height: 100vh;
+    width: 50%;
+    background: #12b712;
+}
+#xspark{
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
 }
