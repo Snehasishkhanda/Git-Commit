@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Fjalla+One&family=Gloock&family=Rubik+Doodle+Shadow&family=Rubik+Scribble&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Orbitron:wght@400..900&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -43,18 +43,34 @@ h1 {
 #page2 .left {
     height: 100vh;
     width: 50%;
+    background-image: linear-gradient(#9735FC,#114582);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 h6{
-    color: rgb(187, 15, 206);
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 0 20px;
+    font-family: "Dancing Script", serif;
 }
-
 #page2 .right {
     height: 100vh;
     width: 50%;
-    background: #12b712;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+.image-box{
+    height: 60%;
+    width: 80%;
+    background: #000;
+    overflow: hidden;
 }
 #xspark{
-    height: 100vh;
+    height: 100%;
     width: 100%;
     object-fit: cover;
 }
