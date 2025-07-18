@@ -1,5 +1,5 @@
 # 1️⃣ Stage the changed file(s)
-git add index.html
+git add .
 
 # 2️⃣ Commit the changes with a meaningful message
 git commit -m "Updated index.html"
